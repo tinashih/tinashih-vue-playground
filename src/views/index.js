@@ -1,7 +1,7 @@
-import About from './Home.vue';
-import Login from './Login/Login';
+import About from './About.vue';
+import Login from './Login/Login.vue';
 
-export default {
+export {
   About,
   Login,
 };

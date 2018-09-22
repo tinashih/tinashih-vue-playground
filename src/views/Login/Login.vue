@@ -1,13 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="login">
+    <h1>This is an login page</h1>
   </div>
 </template>
 
 <script>
-  import main from './Login'
+export default {
+  name: 'Login',
+};
 </script>
 
 <style lang="scss" scoped>
-
+  @import 'Login'
 </style>

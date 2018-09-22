@@ -1,13 +1,12 @@
 <template>
   <div class="login">
-    <h1>This is an login page</h1>
+    <h1>This is a {{ name }} page</h1>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'Login',
-};
+  import Login from './Login'
+  export default Login
 </script>
 
 <style lang="scss" scoped>

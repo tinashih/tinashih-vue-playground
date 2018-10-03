@@ -5,8 +5,8 @@
 </template>
 
 <script>
-  import Login from './Login'
-  export default Login
+import Login from './Login';
+export default Login;
 </script>
 
 <style lang="scss" scoped>

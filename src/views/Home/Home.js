@@ -1,4 +1,9 @@
 export default {
+  computed: {
+    isHomePage() {
+      return this.$route.path === '/';
+    },
+  },
   name: 'home',
   data() {
     return {

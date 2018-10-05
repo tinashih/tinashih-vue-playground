@@ -1,6 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
+@keyframes chatblips{
+  /* taken from http://angrytools.com/css/animation/ for bounce-in animation*/
+  0%{
+    opacity: 0;
+    transform: scale(.3);
+  }
+  50%{
+    opacity: 1;
+    transform: scale(1.0);
+  }
+  70%{
+    transform: scale(0.9);
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.el-container {
+  height: 100%;
+  width: 100%;
+}
+
 .header {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -73,8 +97,70 @@
 }
 
 .home {
+  background-image: url('../../assets/images/home_background.png');
+  background-size: cover;
+  display: grid;
+  grid-template-columns: .5fr 1fr 1fr .5fr;
+  /* for left and right sections */
+  grid-gap: 10px;
+  grid-template-areas: ". left right .";
   height: 100%;
   width: 100%;
+
+  .left-content {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Permanent Marker', sans-serif;
+    grid-area: left;
+    justify-self: center;
+
+    .logo {
+      height: 150px;
+      width: 150px;
+    }
+  }
+
+  .right-content {
+    grid-area: right;
+    align-self: center;
+    justify-self: center;
+
+    img.elements {
+      width: 200px;
+      height: 40px;
+      z-index: 2;
+    }
+
+    .account {
+      margin-top: 0%;
+      margin-left: 9%;
+      animation: chatblips .5s ease-in-out .5s forwards; /* assign animation to dash with 'chatblips' as keyframe name */
+      opacity: 0;
+    }
+
+    .cloud {
+      height: 300px;
+      opacity: 0.5;
+      position: absolute;
+      top: calc(30% + 20px);
+      width: 300px;
+    }
+
+    .recommend {
+      margin-top: 9%;
+      margin-left: 18%;
+      animation: chatblips .5s ease-in-out 1.5s forwards; /* assign animation to eth with 'chatblips' as keyframe name */
+      opacity: 0;
+    }
+
+    .search {
+      margin-top: 9%;
+      margin-left: 27%;
+      animation: chatblips .5s ease-in-out 2.5s forwards; /* assign animation to iota with 'chatblips' as keyframe name */
+      opacity: 0;
+    }
+  }
 }
 
 .main {

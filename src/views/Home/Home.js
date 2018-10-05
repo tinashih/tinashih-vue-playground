@@ -21,10 +21,6 @@ export default {
           label: 'Services',
         },
         {
-          to: 'projects',
-          label: 'Projects',
-        },
-        {
           to: 'contact',
           label: 'Contact Us',
         },

@@ -112,6 +112,7 @@
 .home {
   background-image: url('../../assets/images/home_background.png');
   background-size: cover;
+  box-shadow: 0 0 8px 8px #FBFBFF inset;
   display: grid;
   grid-template-columns: .5fr 1fr 1fr .5fr;
   /* for left and right sections */

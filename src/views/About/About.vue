@@ -1,8 +1,7 @@
 <template>
-  <div class="main">
-    <div class="background"></div>
+  <div class="container">
     <div class="about">
-      <h1>{{ title }}</h1>
+      <h1 class="title">{{ title }}</h1>
       <div class="content">
         {{ content }}
       </div>

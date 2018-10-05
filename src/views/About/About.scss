@@ -1,44 +1,48 @@
 @keyframes monitorIn {
   from {
-    transform: translateX(-200px, 0);
+    transform: translateY(-200px);
     opacity: 0;
   }
 
   to {
-    transform: translate(-50%, -50%);
+    transform: translateY(0);
     opacity: 0.5;
   }
 }
 
 .about {
+  grid-area: body;
+  align-self: center;
+  justify-self: center;
   animation: monitorIn 1s ease-in-out forwards;
   align-items: center;
   background-color: #FFFFFF;
   border-radius: 20px;
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  left: 50%;
-  margin-right: -50%;
+  max-height: 90%;
   opacity: 0.5;
+  overflow: scroll;
   padding: 24px;
-  position: absolute;
-  top: calc(50% + 30px);
-  transform: translate(-50%, -50%);
-  width: 50%;
-  z-index: 2;
+
+  .title {
+    text-align: center;
+  }
 }
 
-.background {
-  background-image: url('../../assets/images/about_background.jpg');
+.container {
+  background-image: url('../../assets/images/about_background.png');
+  background-repeat: repeat-y;
   background-size: cover;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  box-shadow: 0 0 8px 8px white inset;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 50% 1fr;
+  grid-template-rows: 50px auto 50px;
+  grid-template-areas:
+    "header header header"
+    ". body ."
+    "footer footer footer";
   height: 100%;
-  z-index: 1;
-}
-
-.main {
-  height: 100%;
-  z-index: 1;
+  width: 100%;
 }

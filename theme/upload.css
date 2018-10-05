@@ -15,6 +15,7 @@
 /* c6e2ff */
 /* d9ecff */
 /* ecf5ff */
+/* #67c23a -> origin one */
 /* Link
 -------------------------- */
 /* Background
@@ -135,6 +136,7 @@
 /* c6e2ff */
 /* d9ecff */
 /* ecf5ff */
+/* #67c23a -> origin one */
 /* Link
 -------------------------- */
 /* Background
@@ -253,6 +255,7 @@
 /* c6e2ff */
 /* d9ecff */
 /* ecf5ff */
+/* #67c23a -> origin one */
 /* Link
 -------------------------- */
 /* Background
@@ -386,9 +389,9 @@
     padding-right: 0;
     margin-right: 0; }
   .el-progress.is-success .el-progress-bar__inner {
-    background-color: #67c23a; }
+    background-color: #00BC7E; }
   .el-progress.is-success .el-progress__text {
-    color: #67c23a; }
+    color: #00BC7E; }
   .el-progress.is-exception .el-progress-bar__inner {
     background-color: #f56c6c; }
   .el-progress.is-exception .el-progress__text {
@@ -457,6 +460,7 @@
 /* c6e2ff */
 /* d9ecff */
 /* ecf5ff */
+/* #67c23a -> origin one */
 /* Link
 -------------------------- */
 /* Background
@@ -661,7 +665,7 @@
     .el-upload-list__item:first-child {
       margin-top: 10px; }
     .el-upload-list__item .el-icon-upload-success {
-      color: #67c23a; }
+      color: #00BC7E; }
     .el-upload-list__item .el-icon-close {
       display: none;
       position: absolute;

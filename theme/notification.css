@@ -14,6 +14,7 @@
 /* c6e2ff */
 /* d9ecff */
 /* ecf5ff */
+/* #67c23a -> origin one */
 /* Link
 -------------------------- */
 /* Background
@@ -132,6 +133,7 @@
 /* c6e2ff */
 /* d9ecff */
 /* ecf5ff */
+/* #67c23a -> origin one */
 /* Link
 -------------------------- */
 /* Background
@@ -280,7 +282,7 @@
     .el-notification__closeBtn:hover {
       color: #606266; }
   .el-notification .el-icon-success {
-    color: #67c23a; }
+    color: #00BC7E; }
   .el-notification .el-icon-error {
     color: #f56c6c; }
   .el-notification .el-icon-info {

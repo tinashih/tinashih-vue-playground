@@ -14,6 +14,7 @@
 /* c6e2ff */
 /* d9ecff */
 /* ecf5ff */
+/* #67c23a -> origin one */
 /* Link
 -------------------------- */
 /* Background
@@ -132,6 +133,7 @@
 /* c6e2ff */
 /* d9ecff */
 /* ecf5ff */
+/* #67c23a -> origin one */
 /* Link
 -------------------------- */
 /* Background
@@ -254,8 +256,8 @@
       color: #c0c4cc;
       border-color: #c0c4cc; }
     .el-step__head.is-success {
-      color: #67c23a;
-      border-color: #67c23a; }
+      color: #00BC7E;
+      border-color: #00BC7E; }
     .el-step__head.is-error {
       color: #f56c6c;
       border-color: #f56c6c; }
@@ -331,7 +333,7 @@
     .el-step__title.is-wait {
       color: #c0c4cc; }
     .el-step__title.is-success {
-      color: #67c23a; }
+      color: #00BC7E; }
     .el-step__title.is-error {
       color: #f56c6c; }
     .el-step__title.is-finish {
@@ -347,7 +349,7 @@
     .el-step__description.is-wait {
       color: #c0c4cc; }
     .el-step__description.is-success {
-      color: #67c23a; }
+      color: #00BC7E; }
     .el-step__description.is-error {
       color: #f56c6c; }
     .el-step__description.is-finish {

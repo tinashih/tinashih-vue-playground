@@ -1,0 +1,44 @@
+@keyframes monitorIn {
+  from {
+    transform: translateX(-200px, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+  }
+}
+
+.about {
+  animation: monitorIn 1s ease-in-out forwards;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 50%;
+  margin-right: -50%;
+  opacity: 0.5;
+  padding: 24px;
+  position: absolute;
+  top: calc(50% + 30px);
+  transform: translate(-50%, -50%);
+  width: 50%;
+  z-index: 2;
+}
+
+.background {
+  background-image: url('../../assets/images/about_background.jpg');
+  background-size: cover;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 100%;
+  z-index: 1;
+}
+
+.main {
+  height: 100%;
+  z-index: 1;
+}

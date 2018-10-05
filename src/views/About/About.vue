@@ -1,6 +1,12 @@
 <template>
-  <div class="about">
-    About
+  <div class="main">
+    <div class="background"></div>
+    <div class="about">
+      <h1>{{ title }}</h1>
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
   </div>
 </template>
 

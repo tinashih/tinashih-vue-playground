@@ -72,6 +72,19 @@
           transform: translateX(-50%) scaleX(1);
         }
       }
+
+    }
+
+    a.router-link-active {
+      @extend a.item;
+
+      &:active, &:link, &:visited {
+        color: #00BC7E;
+      }
+
+      &::after {
+        background-color: #00BC7E;
+      }
     }
 
     .login-btn {

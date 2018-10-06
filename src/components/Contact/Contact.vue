@@ -17,7 +17,9 @@
       </div>
       <div class="item">
         <span class="item-left">Address:</span>
-        <span class="item-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+        <span class="item-right">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </span>
       </div>
     </div>
     <span slot="footer" class="dialog-footer">

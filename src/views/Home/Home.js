@@ -32,8 +32,8 @@ export default {
           label: 'Services',
         },
         {
-          to: 'contact',
-          label: 'Contact Us',
+          to: 'projects',
+          label: 'Projects',
         },
       ],
       name: 'Vue Demo',

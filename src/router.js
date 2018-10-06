@@ -2,9 +2,9 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import {
   About,
-  Contact,
   Home,
   Login,
+  Projects,
   Services,
 } from './views';
 
@@ -27,9 +27,9 @@ export default new Router({
           component: About,
         },
         {
-          path: '/contact',
-          name: 'contact',
-          component: Contact,
+          path: '/projects',
+          name: 'projects',
+          component: Projects,
         },
         {
           path: '/services',

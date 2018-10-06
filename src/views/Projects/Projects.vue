@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Contact from './Contact';
+import Projects from './Projects';
 
-export default Contact;
+export default Projects;
 </script>
 
 <style lang="scss" scoped>
-  @import 'Contact'
+  @import 'Projects'
 </style>

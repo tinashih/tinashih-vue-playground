@@ -1,8 +1,8 @@
 export default {
-  name: 'contact',
+  name: 'projects',
   data() {
     return {
-      title: 'Contact Us',
+      title: 'Projects',
     };
   },
 };

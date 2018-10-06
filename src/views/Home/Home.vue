@@ -28,6 +28,10 @@
           <img class="elements search" src="../../assets/images/elements/search.png" />
         </div>
       </div>
+      <div @click="openContact" class="contact">
+        <span>Contact Us!</span>
+      </div>
+      <contact-dialog></contact-dialog>
     </el-main>
   </el-container>
 </template>

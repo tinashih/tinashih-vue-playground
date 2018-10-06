@@ -20,6 +20,40 @@
   }
 }
 
+.contact {
+  border-bottom: 70px solid #304960;
+  border-left: 70px solid transparent;
+  border-top: 0px solid transparent;
+  bottom: 0;
+  cursor: pointer;
+  height: 0;
+  position: fixed;
+  right: 0;
+  width: 0;
+
+  &:hover {
+    border-bottom: 150px solid #00BC7E;
+    border-left: 150px solid transparent;
+    border-top: 0px solid transparent;
+
+    span {
+      display: block;
+    }
+  }
+
+  span {
+    display: none;
+    bottom: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    transform: rotate(-45deg);
+    width: 100px;
+  }
+}
+
 .el-container {
   height: 100%;
   width: 100%;

@@ -1,0 +1,20 @@
+.content {
+  align-items: center;
+  align-self: center;
+  background-image: url('../../assets/images/about_background.png');
+  box-shadow: 0px 0px 8px 8px #FFFFFF inset;
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  padding: 16px;
+}
+
+.item {
+  margin: 12px 0;
+  width: 80%;
+
+  &-left {
+    font-weight: 700;
+    padding-right: 12px;
+  }
+}

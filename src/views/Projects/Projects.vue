@@ -1,19 +1,34 @@
 <template>
   <div class="container">
     <section class="section parallax bg1">
-      <h1>Such Adorableness</h1>
+      <div class="content">
+        <h1>Sunshine</h1>
+        <p>Enjoy you food under the sunshine!</p>
+      </div>
     </section>
     <section class="section static">
-      <h1>Amazing</h1>
+      <div class="content">
+        <h1>Sample text</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
     </section>
     <section class="section parallax bg2">
-      <h1>SO FWUFFY AWWW</h1>
+      <div class="content">
+        <h1>Sample text</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
     </section>
     <section class="section static">
-      <h1>Amazing</h1>
+      <div class="content">
+        <h1>Sample text</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
     </section>
     <section class="section parallax bg3">
-      <h1>LOL</h1>
+      <div class="content">
+        <h1>Sample text</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
     </section>
   </div>
 </template>

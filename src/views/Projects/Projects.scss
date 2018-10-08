@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Ubuntu+Condensed');
+
 // https: //alligator.io/css/pure-css-parallax/
 .container {
   /* The height needs to be set to a fixed value for the effect to work.
@@ -11,6 +13,23 @@
   perspective: 2px;
 }
 
+.content {
+  height: 100vh;
+  padding: 72px;
+  width: 100vw;
+
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 72px;
+    font-weight: 500;
+  }
+
+  p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 36px;
+  }
+}
+
 .section {
   /* Needed for children to be absolutely positioned relative to the parent. */
   position: relative;
@@ -19,8 +38,6 @@
 
   /* For text formatting. */
   display: flex;
-  align-items: center;
-  justify-content: center;
   color: white;
   text-shadow: 0 0 5px #000;
 }
@@ -46,7 +63,7 @@
 
 /* The styling for the static div. */
 .static {
-  background: rgb(45, 161, 70);
+  background: #00BC7E;
 }
 
 .bg1::after {

@@ -10,7 +10,7 @@ import '../theme/index.css';
 
 import App from './App.vue';
 import router from './router';
-import store from './store';
+import store from './store/';
 import { firebaseConfig } from '../private';
 
 Vue.config.productionTip = false;

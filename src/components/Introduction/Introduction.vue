@@ -6,7 +6,7 @@
         <p>Welcome to Gourmand!</p>
         <p>We provide delicious food that will make you addictive.</p>
         <p>Don't be hesitated anymore, let's figure out what you want now!</p>
-        <el-button>ABOUT US</el-button>
+        <el-button @click="goAboutPage">ABOUT US</el-button>
       </div>
     </section>
     <section class="section static bg2">
@@ -26,7 +26,7 @@
         <p>Are you getting enough food with high calories?</p>
         <p>We know you!</p>
         <p>Start to get your healthy food today!</p>
-        <el-button>FIGURE OUT NOW!</el-button>
+        <el-button @click="goMenuPage">FIGURE OUT NOW!</el-button>
       </div>
     </section>
     <section class="section static bg4">

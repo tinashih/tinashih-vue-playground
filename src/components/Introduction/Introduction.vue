@@ -11,9 +11,10 @@
     </section>
     <section class="section static bg2">
       <div class="content">
-        <h1>Sunshine</h1>
-        <p>Enjoy you food under the sunshine!</p>
-        <p>Picnic always a great option for you and your friends!</p>
+        <h1>Too Lazy?</h1>
+        <p>Just login and preservation your food, then you'll get hot&delicious food in a short time!</p>
+        <p>Of course, you can find your order history with an easy click.</p>
+        <el-button>SIGN IN</el-button>
       </div>
     </section>
     <section class="section parallax bg3">
@@ -27,10 +28,9 @@
     </section>
     <section class="section static bg4">
       <div class="content">
-        <h1>Too Lazy?</h1>
-        <p>Just login and preservation your food, then you'll get hot&delicious food in a short time!</p>
-        <p>Of course, you can find your order history with an easy click.</p>
-        <el-button>SIGN IN</el-button>
+        <h1>Sunshine</h1>
+        <p>Enjoy you food under the sunshine!</p>
+        <p>Picnic always a great option for you and your friends!</p>
       </div>
     </section>
     <section class="section parallax bg5">

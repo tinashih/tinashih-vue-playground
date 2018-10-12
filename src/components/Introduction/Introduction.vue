@@ -12,7 +12,10 @@
     <section class="section static bg2">
       <div class="content">
         <h1>Too Lazy?</h1>
-        <p>Just login and preservation your food, then you'll get hot&delicious food in a short time!</p>
+        <p>
+          Just login and preservation your food,
+          then you'll get hot&delicious food in a short time!
+        </p>
         <p>Of course, you can find your order history with an easy click.</p>
         <el-button>SIGN IN</el-button>
       </div>

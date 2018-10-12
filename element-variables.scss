@@ -13,6 +13,7 @@ $--color-transition-base: color .2s cubic-bezier(.645,.045,.355,1) !default;
 -------------------------- */
 $--color-white: #fff !default;
 $--color-black: #000 !default;
+$--color-very-light-gray: #FBFBFF !default;
 
 $--color-primary: #409EFF !default;
 $--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
@@ -649,13 +650,13 @@ $--carousel-indicator-out-color: $--border-color-hover !default;
 /* Collapse
 --------------------------*/
 $--collapse-border-color: $--border-color-lighter !default;
-$--collapse-header-height: 48px !default;
+$--collapse-header-height: 60px !default;
 $--collapse-header-padding: 20px !default;
-$--collapse-header-fill: $--color-white !default;
+$--collapse-header-fill: $--color-very-light-gray !default;
 $--collapse-header-color: $--color-text-primary !default;
-$--collapse-header-size: 13px !default;
-$--collapse-content-fill: $--color-white !default;
-$--collapse-content-size: 13px !default;
+$--collapse-header-size: 16px !default;
+$--collapse-content-fill: $--color-very-light-gray !default;
+$--collapse-content-size: 16px !default;
 $--collapse-content-color: $--color-text-primary !default;
 
 /* Transfer

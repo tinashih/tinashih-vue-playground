@@ -5,6 +5,7 @@ import {
   Home,
   Login,
   Menu,
+  News,
 } from './views';
 
 Vue.use(Router);
@@ -30,10 +31,10 @@ export default new Router({
           name: 'menu',
           component: Menu,
         },
-        // {
-        //   path: '/news',
-        //   component: News,
-        // },
+        {
+          path: '/news',
+          component: News,
+        },
       ],
     },
     {

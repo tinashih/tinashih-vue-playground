@@ -30,6 +30,10 @@ export default {
       },
       menu: [
         {
+          to: 'news',
+          label: 'News',
+        },
+        {
           to: 'about',
           label: 'About',
         },

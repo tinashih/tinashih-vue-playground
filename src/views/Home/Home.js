@@ -7,6 +7,9 @@ export default {
     Introduction,
   },
   computed: {
+    getThisYear() {
+      return new Date().getFullYear();
+    },
     isHomePage() {
       return this.$route.path === '/';
     },
@@ -19,6 +22,12 @@ export default {
   name: 'home',
   data() {
     return {
+      footer: {
+        address: '3365 Columbia Boulevard, FAIRPLAY, Colorado 80440',
+        contact: 'service@gourmand.com',
+        phone: '(+1)410-441-0425',
+        right: '',
+      },
       menu: [
         {
           to: 'about',
@@ -31,5 +40,8 @@ export default {
       ],
       name: 'GOURMAND',
     };
+  },
+  mounted() {
+    this.footer.right = ` ⓒ ${this.getThisYear} all right reserved.`;
   },
 };

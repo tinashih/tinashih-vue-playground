@@ -27,6 +27,17 @@
       </div>
       <contact-dialog></contact-dialog>
     </el-main>
+    <el-footer class="footer" height="80px">
+      <div class="left">
+        <img class="logo" src="../../assets/images/logo/logo_white.png" />
+        <span>{{ name }} {{ footer.right }}</span>
+      </div>
+      <div class="right">
+        <span>{{ footer.phone }}</span>
+        <span>{{ footer.contact }}</span>
+        <span>{{ footer.address }}</span>
+      </div>
+    </el-footer>
   </el-container>
 </template>
 

@@ -4,7 +4,7 @@
 .container {
   /* The height needs to be set to a fixed value for the effect to work.
    * 100vh is the full height of the viewport. */
-  height: 100vh;
+  height: calc(100vh - 60px);
   /* The scaling of the images would add a horizontal scroll bar, so disable x overflow. */
   overflow-x: hidden;
   /* Enable scrolling on the page. */
@@ -15,7 +15,7 @@
 
 .content {
   height: 100vh;
-  padding: 72px;
+  padding: 0 72px 72px;
   width: 100vw;
 
   h1 {
@@ -44,7 +44,7 @@
 
 .parallax::after {
   /* Display and position the pseudo-element */
-  content: " ";
+  content: "";
   position: absolute;
   top: 0;
   right: 0;

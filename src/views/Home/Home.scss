@@ -58,6 +58,40 @@
   width: 100%;
 }
 
+.footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .left {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+
+    .logo {
+      height: 36px;
+      width: 36px;
+      padding-right: 8px;
+    }
+
+    span {
+      font-family: 'Uncial Antiqua', sans-serif;
+      margin-top: 20px;
+    }
+  }
+
+  .right {
+    align-self: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .header {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

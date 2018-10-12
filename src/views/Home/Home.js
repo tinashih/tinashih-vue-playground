@@ -1,9 +1,10 @@
 import bus from '../../helper/bus';
-import Components from '../../components';
+import { Contact, Introduction } from '../../components';
 
 export default {
   components: {
-    'contact-dialog': Components.Contact,
+    'contact-dialog': Contact,
+    Introduction,
   },
   computed: {
     isHomePage() {
@@ -20,20 +21,12 @@ export default {
     return {
       menu: [
         {
-          to: 'home',
-          label: 'Home',
-        },
-        {
           to: 'about',
           label: 'About',
         },
         {
-          to: 'services',
-          label: 'Services',
-        },
-        {
-          to: 'projects',
-          label: 'Projects',
+          to: 'menu',
+          label: 'Menu',
         },
       ],
       name: 'Vue Demo',

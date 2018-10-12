@@ -32,11 +32,11 @@
 </template>
 
 <script>
-import Services from './Services';
+import Menu from './Menu';
 
-export default Services;
+export default Menu;
 </script>
 
 <style lang="scss" scoped>
-  @import 'Services'
+  @import 'Menu'
 </style>

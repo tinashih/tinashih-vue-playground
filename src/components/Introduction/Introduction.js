@@ -1,8 +1,8 @@
 export default {
-  name: 'projects',
+  name: 'introduction',
   data() {
     return {
-      title: 'Projects',
+      title: 'Introduction',
     };
   },
 };

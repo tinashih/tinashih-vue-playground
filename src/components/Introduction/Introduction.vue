@@ -34,11 +34,11 @@
 </template>
 
 <script>
-import Projects from './Projects';
+import Introduction from './Introduction';
 
-export default Projects;
+export default Introduction;
 </script>
 
 <style lang="scss" scoped>
-  @import 'Projects'
+  @import 'Introduction'
 </style>

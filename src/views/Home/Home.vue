@@ -1,7 +1,9 @@
 <template>
   <el-container>
     <el-header class="header">
-      <h2 class="name">{{ name }}</h2>
+      <router-link to="/" class="name">
+        <h2>{{ name }}</h2>
+      </router-link>
       <div class="menu">
         <router-link
           :key="index"
@@ -16,17 +18,8 @@
     </el-header>
     <el-main class="main">
       <router-view></router-view>
-      <div class="home" v-if="isHomePage">
-        <div class="left-content">
-          <img class="logo" src="../../assets/images/logo.png" alt="Vue logo">
-          <h1>Vue Demo Site</h1>
-        </div>
-        <div class="right-content">
-          <!-- <img class="cloud" src="../../assets/images/home_image.svg" /> -->
-          <img class="elements account" src="../../assets/images/elements/account.png" />
-          <img class="elements recommend" src="../../assets/images/elements/recommend.png" />
-          <img class="elements search" src="../../assets/images/elements/search.png" />
-        </div>
+      <div v-if="isHomePage">
+        <introduction></introduction>
       </div>
       <div @click="openContact" class="contact">
         <span>Contact Us!</span>

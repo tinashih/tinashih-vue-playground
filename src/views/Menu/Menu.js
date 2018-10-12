@@ -3,7 +3,7 @@ const food2 = require('../../assets/images/services/food_2.jpg');
 const food3 = require('../../assets/images/services/food_3.jpg');
 
 export default {
-  name: 'services',
+  name: 'menu',
   data() {
     return {
       items: [
@@ -44,7 +44,7 @@ export default {
           ],
         },
       ],
-      title: 'Our Services',
+      title: 'Menu',
     };
   },
 };

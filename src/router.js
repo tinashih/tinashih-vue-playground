@@ -4,8 +4,7 @@ import {
   About,
   Home,
   Login,
-  Projects,
-  Services,
+  Menu,
 } from './views';
 
 Vue.use(Router);
@@ -18,35 +17,29 @@ export default new Router({
       component: Home,
       children: [
         {
-          path: '/home',
-          redirect: '/',
-        },
-        {
           path: '/about',
           name: 'about',
           component: About,
         },
         {
-          path: '/projects',
-          name: 'projects',
-          component: Projects,
+          path: '/home',
+          redirect: '/',
         },
         {
-          path: '/services',
-          name: 'services',
-          component: Services,
+          path: '/menu',
+          name: 'menu',
+          component: Menu,
         },
+        // {
+        //   path: '/news',
+        //   component: News,
+        // },
       ],
     },
     {
       path: '/login',
       name: 'Login',
       component: Login,
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: About,
     },
   ],
 });

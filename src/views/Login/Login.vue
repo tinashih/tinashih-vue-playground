@@ -2,7 +2,7 @@
   <div class="login">
     <el-row class="logo-block" type="flex" justify="center">
       <el-col align="middle" :offset="9" :span="6">
-        <img id="logo" src="../../assets/images/logo.png" />
+        <img id="logo" src="../../assets/images/logo/logo.png" />
       </el-col>
       <el-col align="middle" :offset="9" :span="6">
         <h1 class="title" id="title">{{ title }}</h1>

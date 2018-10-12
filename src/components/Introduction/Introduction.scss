@@ -64,16 +64,25 @@
 /* The styling for the static div. */
 .static {
   background: #00BC7E;
+  background-size: cover;
 }
 
 .bg1::after {
-  background-image: url('../../assets/images/projects/food_4.jpg');
+  background-image: url('../../assets/images/introduction/introduction_1.jpg');
 }
 
-.bg2::after {
-  background-image: url('../../assets/images/projects/food_5.jpg');
+.bg2 {
+  background-image: url('../../assets/images/introduction/introduction_2.jpg');
 }
 
 .bg3::after {
-  background-image: url('../../assets/images/projects/food_8.jpg');
+  background-image: url('../../assets/images/introduction/introduction_3.jpg');
+}
+
+.bg4 {
+  background-image: url('../../assets/images/introduction/introduction_4.jpg');
+}
+
+.bg5::after {
+  background-image: url('../../assets/images/introduction/introduction_5.jpg');
 }

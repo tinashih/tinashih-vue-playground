@@ -29,7 +29,7 @@ export default {
           label: 'Menu',
         },
       ],
-      name: 'Vue Demo',
+      name: 'GOURMAND',
     };
   },
 };

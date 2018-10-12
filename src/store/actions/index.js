@@ -1,4 +1,4 @@
-import todo from './todo';
+import about from './about';
 
-const actions = Object.assign({}, todo);
+const actions = Object.assign({}, about);
 export default actions;

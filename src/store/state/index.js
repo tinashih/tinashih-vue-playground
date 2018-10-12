@@ -1,4 +1,4 @@
-import todo from './todo';
+import about from './about';
 
-const state = Object.assign({}, todo);
+const state = Object.assign({}, about);
 export default state;

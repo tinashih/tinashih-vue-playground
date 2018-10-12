@@ -4,12 +4,29 @@
   background-image: url('../../assets/images/logo/black_logo_no_background.png');
   background-position: center;
   background-repeat: no-repeat;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto;
+  grid-template-rows: 20px auto 50px;
+  grid-template-areas:
+    "header"
+    "body"
+    "footer";
   height: 100%;
   width: 100%;
 
-  .title {
-    font-family: 'Uncial Antiqua', sans-serif;
-    font-size: 36px;
-    text-transform: uppercase;
+  .content {
+    flex-direction: column;
+    grid-area: body;
+    height: 100%;
+    justify-content: center;
+    padding: 24px;
+
+    .title {
+      font-family: 'Uncial Antiqua', sans-serif;
+      font-size: 36px;
+      margin-top: 0;
+      text-transform: uppercase;
+    }
   }
 }

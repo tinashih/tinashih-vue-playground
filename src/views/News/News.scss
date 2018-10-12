@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
 
 .container {
+  background-image: url('../../assets/images/logo/black_logo_no_background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+
   .title {
     font-family: 'Uncial Antiqua', sans-serif;
     font-size: 36px;
     text-transform: uppercase;
-  }
-
-  .el-collapse-item {
-    &__header, &__wrap {
-      background-color: #FBFBFF;
-    }
   }
 }

@@ -6,6 +6,7 @@
         {{ content }}
       </div>
     </div>
+    <img alt="Gourmand logo" class="logo" src="../../assets/images/logo/black_logo_no_background.png" />
   </div>
 </template>
 

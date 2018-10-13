@@ -2,14 +2,14 @@ import { mapGetters } from 'vuex';
 
 export default {
   computed: {
-    ...mapGetters([
+    ...mapGetters('about', [
       'content',
       'title',
     ]),
   },
   name: 'about',
   created() {
-    this.$store.dispatch('getAbout');
+    this.$store.dispatch('about/getAbout');
   },
   data() {
     return {
